@@ -4,17 +4,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="margin-right: 20px; width: 350px; display:flex; flex-direction:column;">
+    <div style="margin-right: 20px; width: 320px; display:flex; flex-direction:column;">
         <h1>Self-Driving Car with Neural Networks</h1>
-        <h3 style="color: darkslategrey;">Click '💾' to save your network and continue enhancing your car.</h3>
-        <h3 style="color: darkslategrey;">To restart without saving the current run, click on the '🔄' button.</h3>
-        <h3 style="color: darkslategrey;">If you wish to reset your work completely, click on the '🗑️' icon.</h3>
+        <h3 style="color: darkslategrey;">Click 'Save' to save your car and continue training neural network.</h3>
+        <h3 style="color: darkslategrey;">To restart without saving the current run, click on the 'Restart' button.</h3>
+        <h3 style="color: darkslategrey;">If you wish to reset your work completely, click on the 'Remove' icon.</h3>
     </div>
-    <div style="width: 150px;margin-right: 20px; margin-top: 50px;">
-        <div id="deletedCarsCount" style="color: darkslategrey;font-size: 24px; text-align: right;padding-bottom: 20px;">Score: 0</div>
-        <button onclick="save()" style="font-size: 30px; padding: 20px; float: right; margin-bottom: 5px;">💾</button>
-        <button onclick="reset()" style="font-size: 30px; padding: 20px; float: right;">🔄</button>
-        <button onclick="discard()" style="font-size: 30px; padding: 20px; float: right;">🗑️</button>
+    <div style="width: 150px;margin-right: 20px; margin-top: 70px;">
+        <div id="deletedCarsCount" style="color: darkslategrey;font-size: 24px; text-align: center;padding-bottom: 20px;">Score: 0</div>
+        <button onclick="save()" style="font-size: 18px; padding: 20px; float: right;min-width: 120px; margin-bottom: 10px;">Save</button>
+        <button onclick="reset()" style="font-size: 18px; padding: 20px; float: right;min-width: 120px;margin-bottom: 10px;">Reset</button>
+        <button onclick="discard()" style="font-size: 18px; padding: 20px; float: right;min-width: 120px;margin-bottom: 10px;">Remove</button>
     </div>
     <canvas id="carCanvas" style="margin-right: 10px;"></canvas>
     <canvas id="networkCanvas"></canvas>

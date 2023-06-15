@@ -53,7 +53,6 @@ function generateCars(N) {
 
 let deletedCars = [];
 animate();
-startTimer();
 
 function animate(time) {
   for (let i = 0; i < traffic.length; i++) {
