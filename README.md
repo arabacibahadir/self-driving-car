@@ -1,6 +1,10 @@
 # Simple Neural Network Implementation in JavaScript
 This repository contains a simple implementation of a neural network written in JavaScript. The neural network is designed to have multiple levels, each consisting of a set of neurons. The code provides functionalities for feed-forwarding inputs through the network and mutating the network's parameters.
 
+
+https://github.com/arabacibahadir/self-driving-car/assets/32988819/b773ec31-b3e2-4918-be85-5da70f30b163
+
+
 ## Architecture
 The neural network is represented by the NeuralNetwork class. It takes an array neuronCounts as input, which specifies the number of neurons in each level of the network. The constructor creates the levels of the network based on the given neuron counts.
 
