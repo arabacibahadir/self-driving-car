@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    background:lightblue;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 2px;
+    cursor:pointer;
+    background:mediumturquoise;
+}
+
+button:hover{
+    background:darkturquoise;
+}
+
+#networkCanvas{
+    background:lightslategray;
+}
+
+#carCanvas{
+    background:lightslategray;
+}

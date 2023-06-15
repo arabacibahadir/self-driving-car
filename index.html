@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Self driving car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="margin-right: 20px; width: 350px; display:flex; flex-direction:column;">
+        <h1>Self-Driving Car with Neural Networks</h1>
+        <h3 style="color: darkslategrey;">Click '💾' to save your network and continue enhancing your car.</h3>
+        <h3 style="color: darkslategrey;">To restart without saving the current run, click on the '🔄' button.</h3>
+        <h3 style="color: darkslategrey;">If you wish to reset your work completely, click on the '🗑️' icon.</h3>
+    </div>
+    <div style="width: 150px;margin-right: 20px; margin-top: 50px;">
+        <div id="deletedCarsCount" style="color: darkslategrey;font-size: 24px; text-align: right;padding-bottom: 20px;">Score: 0</div>
+        <button onclick="save()" style="font-size: 30px; padding: 20px; float: right; margin-bottom: 5px;">💾</button>
+        <button onclick="reset()" style="font-size: 30px; padding: 20px; float: right;">🔄</button>
+        <button onclick="discard()" style="font-size: 30px; padding: 20px; float: right;">🗑️</button>
+    </div>
+    <canvas id="carCanvas" style="margin-right: 10px;"></canvas>
+    <canvas id="networkCanvas"></canvas>
+    <script src="visualizer.js"></script>
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
